@@ -16,7 +16,7 @@ NET STOP PnkBstrB
 
 ::pesky bastard sets itself to auto... not cool man. 
 ECHO disabling services...
-sc config PnkBstrA start=disabled
-sc config PnkBstrB start=disabled
+sc config PnkBstrA start=demand
+sc config PnkBstrB start=demand
 ECHO done...
 pause
