@@ -5,4 +5,4 @@ NET START VMAuthdService
 
 ECHO Ready to lauch VMware...
 pause
-"C:\Program Files (x86)\VMware\VMware Workstation\vmware.exe"
+start "" "C:\Program Files (x86)\VMware\VMware Workstation\vmware.exe"
